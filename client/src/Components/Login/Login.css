@@ -1,0 +1,125 @@
+.loginform {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 420px;
+    margin: auto; 
+    margin-top: 35px; 
+    box-shadow: 4px 4px 10px rgb(50, 139, 216);
+    animation: slideIn 0.5s ease-in-out;
+
+}
+
+
+.login-title{
+    height: 80px;
+    color: white;
+    font-weight: 700;
+    background-color: rgb(44, 132, 209);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 37px;
+}
+
+.login-signup-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.login-signup-fields input{
+    width: 85%;
+    height: 40px;
+    padding: 8px;
+    padding-left: 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(240, 235, 221);
+    font-size: 22px;
+
+}
+
+.login-signup-fields input:focus {
+    outline: none;
+    border: 1px solid #66afe9;
+    
+}
+
+.login{
+    width: 62vh;
+    height: 50px;
+    font-size: 22px;
+    border-radius: 30px;
+    background-color: blue;
+    border: none;
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.error-message{
+    color: red;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    font-size: 18px;
+}
+
+.login-footer p{
+    font-size: 18px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+
+.login-signup{
+    color: red;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:500px) {
+    .loginform{
+        width: 260px;
+
+    }
+
+    .login-title{
+        height: 50px;
+        width: 260px;
+        font-size: 30px;
+    }
+    
+    .login-signup-fields input{
+        width: 210px;
+        height: 20px;
+        font-size: 14px;
+    }
+
+    .login{
+        width: 235px;
+        height: 35px;
+        font-size: 18px;
+    }
+
+    .error-message{
+        font-size: 14px;
+    }
+
+    .login-footer p{
+        font-size: 14px;
+    }
+
+
+
+
+}
